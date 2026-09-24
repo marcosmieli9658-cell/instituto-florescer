@@ -13,6 +13,7 @@ Esta versão usa `noindex, nofollow` para desencorajar indexação antes da apro
 - Logomarca, foto da Jeane, biografia e informações das cerimônias fornecidas pelo solicitante.
 - [Instagram oficial do Instituto](https://www.instagram.com/ayahuascalds/): identidade pública, modalidades divulgadas e endereço de Laranjeiras do Sul.
 - [Publicação do Instituto com o telefone de contato](https://www.instagram.com/ayahuascalds/p/DdZQPQ1Rdiw/). O solicitante confirmou usar esse número: **(42) 99933-3027**.
+- [Instagram da Casa Cielo de Los Abuelos](https://www.instagram.com/casacielodelosabuelos/): confirma a proposta do espaço de imersão em meio à natureza. O solicitante informou que as cerimônias do Instituto acontecem lá.
 - [Instituto Alpha](https://institutoalpha.org/) usado somente como referência de organização editorial. O texto do Florescer foi redigido para este projeto; dados do Alpha não foram transferidos.
 - As imagens de floresta e rosa em `assets/images/` foram geradas para este projeto. A foto da Jeane e a logomarca vieram do solicitante.
 
