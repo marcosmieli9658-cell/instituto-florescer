@@ -43,6 +43,27 @@ window.addEventListener("resize", () => {
   if (window.innerWidth > 950 && menuToggle.getAttribute("aria-expanded") === "true") closeMenu();
 });
 
+document.querySelectorAll("[data-medicine-dialog]").forEach((trigger) => {
+  const dialog = document.getElementById(trigger.dataset.medicineDialog);
+  trigger.addEventListener("click", () => {
+    dialog.returnFocusTo = trigger;
+    dialog.showModal();
+    document.body.classList.add("dialog-open");
+    dialog.querySelector("[data-close-dialog]").focus();
+  });
+});
+
+document.querySelectorAll(".medicine-dialog").forEach((dialog) => {
+  dialog.querySelector("[data-close-dialog]").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+  dialog.addEventListener("close", () => {
+    document.body.classList.remove("dialog-open");
+    dialog.returnFocusTo?.focus();
+  });
+});
+
 document.querySelector("#year").textContent = new Date().getFullYear();
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;

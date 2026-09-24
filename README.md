@@ -15,6 +15,7 @@ Esta versão usa `noindex, nofollow` para desencorajar indexação antes da apro
 - [Publicação do Instituto com o telefone de contato](https://www.instagram.com/ayahuascalds/p/DdZQPQ1Rdiw/). O solicitante confirmou usar esse número: **(42) 99933-3027**.
 - [Instagram da Casa Cielo de Los Abuelos](https://www.instagram.com/casacielodelosabuelos/): confirma a proposta do espaço de imersão em meio à natureza. O solicitante informou que as cerimônias do Instituto acontecem lá.
 - [Instituto Alpha](https://institutoalpha.org/) usado somente como referência de organização editorial. O texto do Florescer foi redigido para este projeto; dados do Alpha não foram transferidos.
+- Os resumos das medicinas foram redigidos para esta prévia com base no [IPHAN](https://www.gov.br/iphan/pt-br/superintendencias/acre/patrimonio-imaterial-no-ac), no [Museu Nacional dos Povos Indígenas](https://pesquisa.museudoindio.gov.br/index.php/elaboracao-de-tabaco), em [pesquisa etnográfica](https://www.scielo.br/j/ha/a/5QYzpq3cnMmzTjhxBn794Dd/) e na [Revista Fitos](https://revistafitos.far.fiocruz.br/index.php/revista-fitos/en/article/view/1432). Cada janela informa suas leituras de referência.
 - As imagens de floresta e rosa em `assets/images/` foram geradas para este projeto. A foto da Jeane e a logomarca vieram do solicitante.
 
 ## Plano de ação
@@ -30,6 +31,7 @@ Esta versão usa `noindex, nofollow` para desencorajar indexação antes da apro
 - A localização da Casa Cielo é apresentada como região de busca no mapa; o ponto exato de chegada deve ser confirmado pelo Instituto.
 - Nenhuma página de Facebook oficial foi identificada com segurança, então não há link de Facebook nesta prévia.
 - O texto evita promessas de cura ou resultados de saúde e recomenda conversa individual antes da participação.
+- Confirmar com Jeane quais são as preparações de rapé e sananga utilizadas antes de descrever ingredientes específicos do Instituto.
 
 ## Rodar localmente
 

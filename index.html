@@ -147,7 +147,11 @@
             <h2 class="section-title section-title-light" id="vivencias-title">Um encontro com a natureza. Um tempo para <em>olhar para dentro.</em></h2>
             <p>O Instituto realiza cerimônias com Ayahuasca, rapé e sananga. A condução é de Jeane Severina Prochinski, guardiã das Sagradas Medicinas da Floresta.</p>
             <p>As cerimônias acontecem aos sábados, com início às 20h, e seguem até o amanhecer. Antes de participar, converse com o Instituto para receber as informações e orientações necessárias.</p>
-            <div class="medicine-list" aria-label="Medicinas utilizadas"><span>Ayahuasca</span><span>Rapé</span><span>Sananga</span></div>
+            <div class="medicine-list" aria-label="Conheça as medicinas utilizadas">
+              <button class="medicine-card" type="button" aria-haspopup="dialog" aria-controls="dialog-ayahuasca" data-medicine-dialog="dialog-ayahuasca"><span class="medicine-card-top"><span>01</span><svg class="icon"><use href="#icon-up-right" /></svg></span><strong>Ayahuasca</strong><span class="medicine-card-caption">Conheça a medicina</span></button>
+              <button class="medicine-card" type="button" aria-haspopup="dialog" aria-controls="dialog-rape" data-medicine-dialog="dialog-rape"><span class="medicine-card-top"><span>02</span><svg class="icon"><use href="#icon-up-right" /></svg></span><strong>Rapé</strong><span class="medicine-card-caption">Conheça a medicina</span></button>
+              <button class="medicine-card" type="button" aria-haspopup="dialog" aria-controls="dialog-sananga" data-medicine-dialog="dialog-sananga"><span class="medicine-card-top"><span>03</span><svg class="icon"><use href="#icon-up-right" /></svg></span><strong>Sananga</strong><span class="medicine-card-caption">Conheça a medicina</span></button>
+            </div>
             <a class="button button-outline-light" href="https://wa.me/5542999333027?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20as%20cerim%C3%B4nias%20do%20Instituto%20Florescer." target="_blank" rel="noopener noreferrer">Quero saber mais <svg class="icon"><use href="#icon-arrow" /></svg></a>
           </div>
           <div class="vivencias-aside reveal">
@@ -164,6 +168,39 @@
           </div>
         </div>
       </section>
+
+      <dialog class="medicine-dialog" id="dialog-ayahuasca" aria-labelledby="ayahuasca-title" aria-describedby="ayahuasca-description">
+        <div class="medicine-dialog-inner">
+          <div class="medicine-dialog-top"><span>MEDICINAS SAGRADAS DA FLORESTA</span><button class="medicine-dialog-close" type="button" data-close-dialog aria-label="Fechar informações sobre Ayahuasca">×</button></div>
+          <span class="medicine-dialog-index">01 / 03</span>
+          <h2 id="ayahuasca-title">Ayahuasca</h2>
+          <p id="ayahuasca-description">A ayahuasca é uma bebida de origem amazônica. Uma de suas formas mais conhecidas reúne o cipó mariri e folhas de chacrona. Está presente em cerimônias de diferentes povos indígenas e em tradições religiosas brasileiras. Cada comunidade tem modos próprios de preparo, condução e significado.</p>
+          <div class="medicine-dialog-care"><strong>Antes de participar</strong><p>A experiência pode ser física e emocionalmente intensa. Converse previamente com o Instituto sobre condições de saúde e medicamentos em uso.</p></div>
+          <div class="medicine-dialog-sources"><span>LEITURAS DE REFERÊNCIA</span><a href="https://www.gov.br/iphan/pt-br/superintendencias/acre/patrimonio-imaterial-no-ac" target="_blank" rel="noopener noreferrer">IPHAN ↗</a><a href="https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/subcapas-senad/conad/atos-do-conad-1/2010/11___resolucao_n__01_2010___conad.pdf" target="_blank" rel="noopener noreferrer">CONAD ↗</a></div>
+        </div>
+      </dialog>
+
+      <dialog class="medicine-dialog" id="dialog-rape" aria-labelledby="rape-title" aria-describedby="rape-description">
+        <div class="medicine-dialog-inner">
+          <div class="medicine-dialog-top"><span>MEDICINAS SAGRADAS DA FLORESTA</span><button class="medicine-dialog-close" type="button" data-close-dialog aria-label="Fechar informações sobre Rapé">×</button></div>
+          <span class="medicine-dialog-index">02 / 03</span>
+          <h2 id="rape-title">Rapé</h2>
+          <p id="rape-description">O rapé é um pó de uso nasal presente em diferentes tradições indígenas amazônicas. Muitas preparações combinam tabaco com cinzas de árvores, mas os ingredientes variam conforme o povo e a tradição. Seu sentido cultural e espiritual vai além da composição.</p>
+          <div class="medicine-dialog-care"><strong>Antes de participar</strong><p>A composição do rapé varia. Preparações com tabaco contêm nicotina, substância que pode causar dependência. Pergunte ao Instituto qual preparo é utilizado.</p></div>
+          <div class="medicine-dialog-sources"><span>LEITURAS DE REFERÊNCIA</span><a href="https://pesquisa.museudoindio.gov.br/index.php/elaboracao-de-tabaco" target="_blank" rel="noopener noreferrer">Museu dos Povos Indígenas ↗</a><a href="https://stacks.cdc.gov/view/cdc/50401/cdc_50401_DS1.pdf" target="_blank" rel="noopener noreferrer">Análise de composição ↗</a></div>
+        </div>
+      </dialog>
+
+      <dialog class="medicine-dialog" id="dialog-sananga" aria-labelledby="sananga-title" aria-describedby="sananga-description">
+        <div class="medicine-dialog-inner">
+          <div class="medicine-dialog-top"><span>MEDICINAS SAGRADAS DA FLORESTA</span><button class="medicine-dialog-close" type="button" data-close-dialog aria-label="Fechar informações sobre Sananga">×</button></div>
+          <span class="medicine-dialog-index">03 / 03</span>
+          <h2 id="sananga-title">Sananga</h2>
+          <p id="sananga-description">Conhecida em alguns contextos como “colírio da floresta”, a sananga é um preparo vegetal tradicionalmente aplicado aos olhos em práticas indígenas amazônicas. Há registros de uso de plantas do gênero <i>Tabernaemontana</i>, mas as preparações variam entre comunidades. A composição utilizada pelo Instituto deve ser confirmada com a equipe.</p>
+          <div class="medicine-dialog-care"><strong>Antes de participar</strong><p>O contato com os olhos pode causar irritação. A sananga não substitui avaliação ou tratamento oftalmológico.</p></div>
+          <div class="medicine-dialog-sources"><span>LEITURAS DE REFERÊNCIA</span><a href="https://revistafitos.far.fiocruz.br/index.php/revista-fitos/en/article/view/1432" target="_blank" rel="noopener noreferrer">Revista Fitos ↗</a><a href="https://www.scielo.br/j/ha/a/Cbr9yKy4Jf5vhsNb9TCKtmD/?lang=pt" target="_blank" rel="noopener noreferrer">Pesquisa etnográfica ↗</a></div>
+        </div>
+      </dialog>
 
       <section class="journey section" aria-labelledby="journey-title">
         <div class="container">
