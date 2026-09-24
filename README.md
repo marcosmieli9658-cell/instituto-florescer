@@ -1,4 +1,4 @@
-# Instituto Florescer — prévia institucional
+# Instituto Florescer: prévia institucional
 
 Site de uma página, responsivo, criado para avaliação do proprietário antes da aprovação final. É um projeto estático: `index.html`, `styles.css`, `script.js` e imagens em `assets/`.
 

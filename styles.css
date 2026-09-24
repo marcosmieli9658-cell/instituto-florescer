@@ -57,8 +57,7 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 .hero::before { content: ""; position: absolute; z-index: -1; inset: 22px 22px 73px; border: 1px solid rgba(247, 241, 216, .32); pointer-events: none; }
 .hero-inner { position: relative; padding-block: 120px 155px; }
 .hero-content { max-width: 720px; }
-.eyebrow { display: flex; align-items: center; gap: 14px; margin: 0 0 24px; color: var(--rose); font-size: 11px; font-weight: 700; letter-spacing: .22em; line-height: 1.5; text-transform: uppercase; }
-.eyebrow-line { width: 29px; height: 1px; flex: none; background: currentColor; }
+.eyebrow { margin: 0 0 24px; color: var(--rose); font-size: 11px; font-weight: 700; letter-spacing: .22em; line-height: 1.5; text-transform: uppercase; }
 .eyebrow-light { color: #d9dfc8; }
 .hero h1, .section-title { margin: 0; font-family: var(--font-display); font-weight: 400; line-height: 1.05; letter-spacing: -.025em; }
 .hero h1 { max-width: 710px; font-size: clamp(55px, 6.5vw, 91px); text-wrap: balance; }
@@ -110,7 +109,6 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 
 .essence { background: #f1f3eb; }
 .section-heading { max-width: 670px; margin: 0 auto 54px; text-align: center; }
-.section-heading .eyebrow { justify-content: center; }
 .section-heading > p:last-child { margin: 19px 0 0; color: var(--muted); font-size: 15px; line-height: 1.7; }
 .essence-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .essence-card { min-height: 323px; position: relative; padding: 34px 31px 33px; background: #fffefa; border: 1px solid #e3e8dc; transition: transform .2s ease, box-shadow .2s ease; }
@@ -316,8 +314,7 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
   .hero { min-height: 681px; }
   .hero-backdrop { background-position: 57% center; }
   .hero-inner { padding-block: 100px 150px; }
-  .eyebrow { margin-bottom: 19px; gap: 10px; font-size: 10px; letter-spacing: .17em; }
-  .eyebrow-line { width: 22px; }
+  .eyebrow { margin-bottom: 19px; font-size: 10px; letter-spacing: .17em; }
   .hero h1 { font-size: clamp(49px, 13vw, 62px); }
   .hero-lead { margin-top: 22px; font-size: 14px; line-height: 1.75; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 22px; margin-top: 31px; }
